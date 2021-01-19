@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Registre</title>
+    </head>
+
+    <body align="center">
+        
+
+
+        <form action="confirmation.html">
+            <h1>Create an Acount</h1>
+            <fieldset>
+                <legend>Personal Data</legend>
+                Your Full Name: <input type="text" required/> <br/> <br/>
+                Your phone num: <input type="text" required/> <br/> 
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Course Selection</legend>
+                Choose the training program:
+                <br/>
+                <select>
+                    <option>HTML Basics Course</option>
+                    <option>CSS Basics Course</option>
+                </select>
+                <br/>
+                Choose the study hours:
+                <br/>
+                <select>
+                    <optgroup label="Morning">
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    </optgroup>
+                    <optgroup label="Evening">
+                    <option>19:00</option>
+                    <option>20:00</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <br/>
+            <button>APPLY</button>
+            <br/>
+            <input type="checkbox" required/> Accept <a href="/forms/terms.html" target="_blank">terms</a> and conditions
+        </form>
+
+    </body>
+</html>
+
+
+
+
+<!--
+    form - form caontainer - paired
+        +action
+        +method
+
+        > input - different input widgets
+-->
